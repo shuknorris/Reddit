@@ -1,0 +1,47 @@
+.header {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5em 0 2.5em;
+
+}
+.header-left ul {
+    display: flex;
+    align-items: center;
+
+}
+.header-left li a{
+    padding: 10px;
+    margin: 10px;
+    color: #808080;
+}
+.header a{
+    text-decoration: none;   
+}
+.header-left a.active {
+    color: red;
+    border-bottom: 2px solid red;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:hover {
+    color: orange;
+}
+.header-right > * {
+    margin-left: 10px;
+}
+.header-right > img {
+    width: 25%;
+    border-radius: 50%;
+}
+.header-right > i {
+    font-size: medium;
+    color: #808080;
+}
+.header-right > .header-right > span {
+     margin-right: 10px;
+}
